@@ -1,0 +1,31 @@
+@chartset "uft-8";
+@media (max-width: 1024px) {
+    .main-visual {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .top-title {
+        font-size: 60px;
+    }
+}
+@media (max-width: 670px) {
+    .header-left {
+        display: none;
+    }
+    .header-right {
+        float: none;
+        text-align: center;
+    }
+    .header-right a {
+        font-size: 14px;
+    }
+    .main {
+        padding: 60px 0;
+    }
+    .main-image {
+        width: 280px;
+    }
+    .main p {
+        font-size: 13px;
+    }
+}
